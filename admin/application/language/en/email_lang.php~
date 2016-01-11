@@ -1,0 +1,11 @@
+<?php
+$lang["greeting"] = "Hi";
+$lang["account_created"] = "Your account has been created. Please login with folowing details.";
+$lang["regards"] = "Regards";
+$lang["email_subject_account"] = 'Know My Story: Account created';
+$lang["email_reply_message"] = 'Know My Story: Reply Message';
+
+$lang["email_subject_newpassword"] = 'Know My Story: New Password';
+$lang["forgot_password"] = "New Password has been sdfsdcreated. Please login with folowing details.";
+
+?>

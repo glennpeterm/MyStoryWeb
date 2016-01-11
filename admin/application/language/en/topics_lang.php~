@@ -1,0 +1,17 @@
+<?php
+$lang["add_topics"] = "ADD TOPICS";
+$lang["add"] = "Add";
+$lang["topic_name"] = "Topic Name";
+$lang["topic_desc"] = "Topic Description";
+$lang["save"] = "Save";
+
+
+$lang["topics"] = "TOPICS";
+$lang["listing"] = "Topics List";
+$lang["topic_name"] = "Topic Name";
+$lang["topic_desc"] = "Topic Description";
+
+
+
+$lang["topics_view"] = "TOPICS";
+$lang["view"] = "View";

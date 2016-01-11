@@ -1,0 +1,9 @@
+<?php
+$lang["inbox_details"] = "Inbox Details";
+$lang["name"] = "Name";
+$lang["email"] = "Email";
+$lang["message"] = "Message";
+$lang["date"] = "Date";
+$lang["action"] = "Action";
+$lang["inbox"] = "Inbox";
+

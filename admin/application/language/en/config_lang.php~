@@ -1,0 +1,12 @@
+<?php
+$lang["add_config"] = "ADD CONFIGURATION";
+$lang["add"] = "Add";
+$lang["config_name"] = "Video URL";
+
+$lang["save"] = "Save";
+
+
+
+
+
+

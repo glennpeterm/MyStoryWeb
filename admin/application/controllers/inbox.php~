@@ -1,0 +1,32 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Inbox extends CI_Controller {
+    
+    function __construct() {
+        parent::__construct();
+        $this->load->helper('url');
+        $this->load->helper(array('form'));
+        $this->load->library('form_validation');
+        $this->load->library('session');
+        $this->load->library('pagination');
+        //$this->load->model('M_Inbox', '', TRUE);
+             
+    }
+    
+   public function index()
+   {
+       // $data = array();
+       // $data['header'] = $this->load->view('v_header',$data, true);
+       // $data['sidebar'] = $this->load->view('v_leftmenu',$data, true);
+       // $data['footer'] = $this->load->view('v_footer',$data, true);
+        
+               
+		$this->load->view('v_header');
+		$this->load->view('v_leftmenu');
+		$this->load->view('v_inbox');
+		$this->load->view('inbox/v_footer');
+       
+        //$this->load->view('v_home');
+   }
+    
+}

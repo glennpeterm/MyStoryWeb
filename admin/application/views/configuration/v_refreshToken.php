@@ -1,0 +1,1 @@
+<div><a href="<?php echo $authUrl;?>">Click here to google</a></div>

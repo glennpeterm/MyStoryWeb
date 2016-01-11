@@ -1,0 +1,13 @@
+SKIN HOLDER (07-01-2015)
+----------------------------
+  skin.css 
+   .setting {display:none;}
+
+  main.css
+    .table .fa.action {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;margin-right: 5px;} 
+
+  dataTables.bootstrap.css
+    table.dataTable thead > tr > th {/* padding-left: 18px; */}
+
+  bootstrap.min.css
+    .alert {margin: 15px 15px;}

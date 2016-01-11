@@ -1,0 +1,54 @@
+<?php
+Class M_Home extends CI_Model
+{
+    function __construct()
+    {
+        parent::__construct();
+        $this->userid    = $this->session->userdata('kms_ad_id');
+        $this->user_role = $this->session->userdata('kms_ad_role');      
+        $this->language  = $this->config->item('language');
+    }
+   /** function for getting selfie videos uploaded count and published videos count**/
+    function getSelfiesStatus()
+    {
+        $data = '';
+        $this->db->where('video_type','selfie');
+        $result = $this->db->get('videos'); 
+        $result = $this->db->get_where('videos', array('video_type' => 'selfie'));
+        
+        $searchresult = $result->result();
+        $total_count = $result->num_rows();
+        if($total_count>0)
+        {
+            $publish_count = 0 ;
+            //$reject_count = 0 ;
+            foreach ($searchresult as $results)
+            {          
+                if($results->video_status == 1)
+                {
+                    ++$publish_count;
+                }
+                
+            }
+             $data['publish_count'] = $publish_count;
+             $data['upload_count']  = $total_count;
+        }
+        else
+        {
+            $data['upload_count']  = 0;
+            $data['publish_count'] = 0;
+        }
+         return $data;
+    }
+   /** end of code for getting selfie videos uploaded count and published videos count**/
+   
+    /** function for getting registered users count **/
+    function getRegisteredUsersCount()
+    {
+        $result = $this->db->get('user');         
+        return $result->num_rows();  
+    }
+
+    
+    /** end of function for getting registered users count **/
+}   

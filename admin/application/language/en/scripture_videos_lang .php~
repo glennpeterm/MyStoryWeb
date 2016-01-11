@@ -1,0 +1,26 @@
+<?php
+$lang["add_scripture_video"] = "ADD SCRIPTURE VIDEO";
+$lang["add"] = "Add";
+$lang["title"] = "Title";
+$lang["embed_youtube_video"] = "Embed Youtube Video";
+$lang["save"] = "Save";
+
+
+$lang["scripture_videos"] = "SCRIPTURE VIDEOS";
+$lang["listing"] = "Videos List";
+$lang["video_title"] = "Video Title";
+$lang["video_desc"] = "Video Description";
+$lang["embed_code"] = "Embed Video Code";
+$lang["video_url"] = "Video Url";
+$lang["video_tag"] = "Video Tags";
+$lang["rating"] = "Rating";
+$lang["username"] = "User Name";
+
+$lang["rating_heading"] = "Video Rating";
+$lang["topics"] = "Topics";
+
+$lang["video_rating"] = "VIDEO RATING";
+$lang["rating_listing"] = "Rating List";
+
+$lang["scripture_videos_view"] = "SCRIPTURE VIDEO";
+$lang["view"] = "View";

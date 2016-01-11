@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mystory_listing</title>
+<link href="<?php echo base_url();?>assets/css/movile_html_view.css" rel="stylesheet" type="text/css">
+<link href="<?php echo base_url();?>assets/css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css">
+
+  <script src="<?php echo base_url();?>assets/plugins/jquery-2.1.0.min.js"></script>
+<script src="<?php echo base_url();?>assets/js/jquery.mobile-1.4.5.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!--heading-->
+<div class="heading_holder">My Story</div>
+<!--/ heading-->
+<!--filter--><!--/ filter-->
+<!--container-->
+<div class="contaier_list_holder">
+    <?php 
+         
+                                                                          
+        if(isset($selfie_videos))
+        { 
+
+            if(count($selfie_videos)>0)
+            {
+            foreach ($selfie_videos as $results):?>
+    
+	<div class="list_holder">
+<<<<<<< HEAD
+           <a class="delet_button"  href="javascript:void(0);" onclick="confirmDelete(<?php echo $results->video_id;?>)"></a>
+
+           <a href="<?php echo base_url().'mobile_view/video_details/'.$results->video_id;?>" style="text-decoration: none">
+=======
+          
+    <a onclick="assignId(<?php echo  $results->video_id ;?>)" href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop" 
+    class="delet_button"></a>
+>>>>>>> 3e79ad49814e6facc8a3a3eaaef2f9deadda220b
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+              <td width="7%" align="left" valign="top"><div class="list_img"><img src="<?php echo $results->video_thumbnail_url;?>"></div></td>
+            <td width="93%" style="padding-right:30px;">
+           	  	<h2><?php echo  $results->video_title ;?></h2>
+            	<h3><?php echo substr($results->video_desc,0,40);if(strlen($results->video_desc)>30) {?> .....<?php }?></h3>
+                <?php if($results->video_status==1) 
+                        {
+                            $status= 'Published';
+                        }
+                        else {
+                             $status= 'UnPublished';
+                        }
+                            ?>
+            	<h4><?php echo $status;?></h4>
+            </td>
+          </tr>
+        </table>
+           </a>
+           
+    </div>
+    <?php  endforeach; } else{?>
+    <div>No Results</div>
+        <?php } }?>
+        
+    </div>
+    <div data-role="popup" id="popupDialog"  data-dismissible="false" >
+      <div data-role="header" data-theme="a">
+      <h1>Delete?</h1>
+      </div>
+      <div role="main" class="ui-content">
+        <h3 class="ui-title">Are you sure you want to delete this video?</h3>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline " data-rel="back">Cancel</a>
+        <a onclick="confirmDelete()" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline " data-rel="back" >Delete</a>
+      </div>
+    </div>
+    <input type="hidden" name="deleteId" id="deleteId">
+<!--/ container-->
+
+</body>
+                
+<script type="text/javascript">
+    
+   
+    var baseurl = "<?php echo base_url(); ?>";
+    // function for topic deletion 
+
+
+    function assignId(id)
+    {
+      $("#deleteId").val(id);
+    }
+    function confirmDelete()
+    {
+      var userid = '<?php echo $userid;?>';
+      var lang = '<?php echo $lang;?>'
+      var id = $("#deleteId").val();
+      console.log('mobile_view/my_story_delete/'+id+'/'+userid+'/'+lang);
+     // window.location = baseurl+'mobile_view/my_story_delete/'+id+'/'+userid+'/'+lang;
+
+    }
+</script>
+</html>

@@ -1,0 +1,17 @@
+<?php
+$lang["edit_hashtag"] = "EDIT TAG";
+$lang["add"] = "Add";
+$lang["hashtag_name"] = "Tag Name";
+
+$lang["save"] = "Save";
+
+
+$lang["hashtags"] = "TAGS";
+$lang["listing"] = "Tag List";
+$lang["hashtag_name"] = "Hashtag Name";
+
+
+
+
+$lang["hashtags_view"] = "HASHTAG";
+$lang["view"] = "View";

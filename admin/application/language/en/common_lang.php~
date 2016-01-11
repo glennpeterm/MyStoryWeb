@@ -1,0 +1,105 @@
+<?php
+$lang["home"] = "Home";
+$lang["dashboard"] = "Dashboard";
+$lang["users"] = "Users";
+$lang["admin_users"] = "Admin Users";
+$lang["front_users"] = "Frontend Users";
+
+$lang["my_account"] = "My Account";
+$lang["my_inbox"] = "My Inbox";
+$lang["logout"] = "Log out";
+$lang["inbox"] = "Inbox";
+$lang["configuration"] = "Configuration";
+$lang["topics_menu"] = "Topics";
+$lang["hashtag_menu"] = "Tag";
+$lang["testimonial_video_menu"] = "Testimonial Videos";
+$lang["scripture_video_menu"] = "Scripture Videos";
+$lang["selfie_video_menu"] = "Selfie Videos";
+
+//buttons
+$lang["save"] = "Save";
+$lang["save_notify"] = "Save & Notify";
+$lang["saved"] = "Saved successfully";
+$lang["deleted"] = "Successfully deleted";
+$lang["delete_failed"] = "Unable to delete, Please try again..";
+
+$lang["no_data"] = "No data found";//for listing pages
+$lang["txt_view"] = "View";
+$lang["txt_edit"] = "Edit";
+$lang["txt_delete"] = "Delete";
+$lang["txt_status"] = "Status";
+$lang["txt_share"] = "User Share";
+$lang["active"] = "active";
+$lang["inactive"] = "inactive";
+$lang["delete_confirm"] = "Are you sure?";
+$lang["status_changed"] = "Successfully updated";
+$lang["status_change_error"] = "Failed to update status..";
+$lang["chanage_password"] = "Change Password";
+
+$lang["old_password"] = "Old Password";
+$lang["new_password"] = "New Password";
+$lang["confirm_password"] = "Confirm Password";
+
+$lang["first_name"] = "First Name";
+$lang["last_name"] = "Last Name";
+$lang["email_add"] = "Email Address";
+$lang["my_account"] = "My Account";
+$lang["account"] = "Account";
+
+
+
+
+$lang["video_url"] = "Video Url";
+$lang["date"] = "Date";
+$lang["action"] = "Action";
+$lang["back"] = "Back";
+$lang["cancel"] = "Cancel";
+$lang["male"] = "Male";
+$lang["female"] = "Female";
+$lang["gender"] = "Gender";
+$lang["common_add"] = "Add";
+$lang["common_edit"] = "Edit";
+$lang["web_status"] = "Website Status";
+
+
+$lang["reset_password"] = "Reset Password";
+
+$lang["explanatory_video_list"] = "Explanatory Videos List";
+$lang["topics_list"] = "Topics List";
+$lang["hashtag_list"] = "Tag List";
+$lang["testimonial_video_list"] = "Testimonial Videos List";
+$lang["scripture_video_list"] = "Scripture Videos List";
+$lang["selfie_video_list"] = "Selfie Videos List";
+$lang["testimonial_list"] = "Testimonial List";
+$lang["scripture_list"] = "Scripture List";
+$lang["video_rating_list"] = "Video Rating List";
+$lang["video_management"] = "Video Management" ;
+
+$lang["highlight_video"] = "Highlight Video";
+$lang["uploaded_by"] = "Uploaded By";
+
+$lang["total_likes"] = "Total Likes:";
+$lang["facebook"] = "Facebook:";
+$lang["youtube"] = "Youtube:";
+$lang["total_share"] = "Total Share:";
+
+
+
+$lang["desc"] = "Description";
+$lang["twitter"] = "Twitter:";
+$lang["email"] = "E-mail:";
+
+$lang["dashboard"] = "Dashboard";
+$lang["selfies_uploaded"] = "Selfies Uploaded";
+$lang["selfies_published"] = "Selfies Published";
+$lang["selfies_rejected"] = "Selfies Rejected";
+$lang["registered_users"] = "Registered Users";
+
+$lang["switchery_confirmation"] = "Are you sure you want to change the status?";
+$lang["delete_confirmation"] = "Are you sure you want to change the status?";
+
+
+
+
+
+?>

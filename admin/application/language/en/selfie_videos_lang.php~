@@ -1,0 +1,34 @@
+<?php
+$lang["add_scripture_video"] = "ADD SCRIPTURE VIDEO";
+$lang["add"] = "Add";
+$lang["title"] = "Title";
+$lang["embed_youtube_video"] = "Embed Youtube Video";
+$lang["save"] = "Save";
+
+
+$lang["selfie_videos"] = "SELFIE VIDEOS";
+$lang["listing"] = "Videos List";
+$lang["video_title"] = "Video Title";
+$lang["video_desc"] = "Video Description";
+$lang["embed_code"] = "Embed Video Code";
+$lang["video_id"] = "Video Id";
+$lang["video_url"] = "Video Url";
+$lang["video_tag"] = "Video Tags";
+
+$lang["highlight_video"] = "Highlight Video";
+$lang["uploaded_by"] = "Uploaded By";
+
+$lang["rating"] = "Rating";
+$lang["username"] = "User Name";
+
+$lang["rating_heading"] = "Video Rating";
+$lang["topics"] = "Topics";
+
+$lang["video_rating"] = "SCRIPTURE VIDEO RATING";
+$lang["rating_listing"] = "Video Rating List";
+
+$lang["video_sharing"] = "SCRIPTURE VIDEO SHARING";
+$lang["sharing_listing"] = "Video Sharing List";
+
+$lang["selfie_videos_view"] = "SELFIE VIDEO";
+$lang["view"] = "View";

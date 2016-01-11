@@ -1,0 +1,228 @@
+body                        {margin:20px; padding:0px; list-style:none; text-decoration:none; }
+.clear                      {clear:both;}
+
+.able_font                  {font-family: 'Abel', sans-serif;}
+.roboto_font                {font-family: 'Roboto', sans-serif;}
+
+.header_wrapper             {position: fixed;top: 0;margin-left: -20px;width: 100%;padding-left: 20px; padding-top:10px;background: rgba(255,255,255,0.98);-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);z-index: 5;}
+.heading_holder             {width:100%; text-transform:uppercase; font-size:25px; color:#eb7a00;font-family: 'Abel', sans-serif; margin-bottom:15px; text-align:left;}
+.filter_holder              { margin:0px 0px 20px 0px;}
+.filter_form_holder         {width:48%; float:left; padding:0px 15px 0px 0px; box-sizing:border-box;}
+.contaier_list_holder       {margin-top:120px;}
+.contaier_list_holder a     {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.contaier_list_holder_mystory{margin-top:70px;}
+.contaier_list_holder_mystory a{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.list_holder                {margin-bottom:20px; width:100%;}
+.list_img                   {float:left; margin:0px 12px 0px 0px; width:100px; height:65px; overflow:hidden;}
+.list_text_holder           {float:left;}
+.list_holder h2             {font-family: 'Abel', sans-serif; font-weight:300; color:#585858; font-size:18px; margin:0px 0px 7px 0px;}
+.list_holder h3             {font-family: 'Roboto', sans-serif; font-weight:300; color:#929292; font-size:13px; margin:0px 0px 7px 0px;}
+.list_holder h4             {font-family: 'Roboto', sans-serif; font-weight:300; color:#6a6969; font-size:13px; margin:0px 0px 0px 0px;}
+
+.delet_button               {position:absolute; height:35px; width:35px; background:#eb7a00 url(../img/list_delet.png) no-repeat; -webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; right:20px; display:block; cursor:pointer; margin-top:25px;}
+.privacy_button               {position:absolute; height:35px; width:35px; background:#eb7a00 url(../img/icon_privacy.png) no-repeat; -webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; right:75px; display:block; cursor:pointer; margin-top:25px;}
+
+.details_heading            {font-family: 'Abel', sans-serif; font-size:20px; color:#585858; margin-bottom:10px;}
+.video_holder               {height:200px; margin-bottom:25px; margin-bottom:25px;}
+.scripture_holder           {font-family: 'Roboto', sans-serif; line-height:26px; color:#6a6969; font-size:20px; margin-bottom:25px; font-weight:300;}
+.discripton_holder          {font-family: 'Roboto', sans-serif; line-height:18px; color:#6a6969; font-size:13px; text-align:justify;}
+.loading                    {background-image: url(../img/gif-load.gif);background-position: center bottom;background-repeat: no-repeat !important;display: inline-block;padding-bottom: 18px !important;}
+
+.videobuffring                          {max-width:1000px; text-align:center; margin:20px auto; display:none; }
+
+.pop_social_media_holder				{margin-bottom:20px; float:right;}
+.pop_social_media_holder ul				{list-style:none;padding:0px;}
+.pop_social_media_holder ul li			{float:left; margin:0px 0px 0px 20px; }
+
+
+.textareaKeeper input {
+font-family: 'Abel', sans-serif;
+font-size:18px;
+width: 100%;
+box-sizing: border-box;
+height: 40px;
+line-height: 40px;
+top: -20px;
+border: none;
+resize: none;
+margin-left: 0px;
+position: relative;
+padding: 0px 12px;
+outline: none;
+left: 0px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+background:none;
+background-color:transparent;
+
+}
+.halfborder {margin:0px auto;}
+.halfborder > div {
+border-left: 1px solid #bebebe;
+border-right: 1px solid #bebebe;
+border-bottom: 1px solid #bebebe;
+height: 20px;
+margin-top: 10px;
+}
+
+.select-style {
+font-family: 'Abel', sans-serif;
+padding: 1px 0px;
+margin: 0;
+border: none;
+overflow: hidden;
+background-color: #fff;
+background: #fff url("../img/channels_dropdown.png") no-repeat 98% 51%;
+margin-top: -21px;
+position: absolute;
+width: 100%;
+
+}
+
+.channels_noresults {font-family: 'Abel', sans-serif; font-size:15px; color:#ccc;}
+
+.select-style select {
+    font-family: 'Abel', sans-serif;
+    padding: 8px 10px 3px 10px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+            font-size:18px;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.select-style select:focus {
+    outline: none;
+    background:none;
+}
+        .newhalfborder {margin:0px auto; width:100%}
+      .newhalfborder > div {
+          border-left: 1px solid #bebebe;
+          border-right: 1px solid #bebebe;
+          border-bottom: 1px solid #bebebe;
+          height: 20px;
+          margin-top: 10px;
+          position:relative;
+}
+
+
+
+/* DEMO 2 */
+
+.wrapper-dropdown-2 {
+    /* Size and position */
+    position: relative; /* Enable absolute positionning for children and pseudo elements */
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+    /* Styles */
+    background: #fff;
+    box-sizing:border-box;
+    cursor: pointer;
+    outline: none;
+    top:-25px;
+    font-family: 'Abel', sans-serif;
+font-size:18px;
+}
+
+.wrapper-dropdown-2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: grey transparent;
+}
+
+.wrapper-dropdown-2 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+
+    /* Styles */
+    background: white;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+.dropdown{ max-height: 200px;overflow-y:scroll;}
+.wrapper-dropdown-2 .dropdown {list-style:none; outline:1px solid #bebebe; }
+.wrapper-dropdown-2 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    
+    padding: 10px;
+}
+
+.wrapper-dropdown-2 .dropdown li:nth-child(1) a { 
+    border-left-color: #00ACED;
+}
+
+.wrapper-dropdown-2 .dropdown li:nth-child(2) a {
+    border-left-color: #4183C4;
+}
+
+.wrapper-dropdown-2 .dropdown li:nth-child(3) a {
+    border-left-color: #3B5998;
+}
+
+.wrapper-dropdown-2 .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-2 .dropdown li:hover a {
+    color: grey;
+}
+
+/* Active state */
+
+.wrapper-dropdown-2.active:after {
+    border-width: 0 6px 6px 6px;
+}
+
+.wrapper-dropdown-2.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    padding: 0px 0px 0px 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* No CSS3 support */
+
+.no-opacity       .wrapper-dropdown-2 .dropdown,
+.no-pointerevents .wrapper-dropdown-2 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-2.active .dropdown,
+.no-pointerevents .wrapper-dropdown-2.active .dropdown {
+    display: block;
+}
+.publish_button { background: #eb7a00 url("../img/eye.png") no-repeat scroll 5px 5px;    border-radius: 25px;    cursor: pointer;    display: block;    height: 35px;    margin-top: 25px;    position: absolute;    right: 65px;    width: 35px;}
+.unpublish_button { background: #757575 url("../img/lock.png") no-repeat scroll 5px 5px;    border-radius: 25px;    cursor: pointer;    display: block;    height: 35px;    margin-top: 25px;    position: absolute;    right: 65px;    width: 35px;}
+.flagPopup                          {display: none;  position: fixed;  background: #ffffff;  z-index: 3;  color:#3f3f3f;  width: 75%;  min-width: 100%;top:0!important}
+.flagPopup:after                        { display:block; content:''; clear:both; }
+.simplePopupClose                         {float: right;  cursor: pointer;  margin-left: 10px;  margin-bottom: 10px; display:none;}
+.simplePopupBackground                    {display: none;  background: #000;  position: fixed;  height: 100%;  width: 100%;  top: 0;  left: 0;  z-index: 3;}
+.validate_error {border: 1px solid #e81e1e!important;}
+.pager a {cursor: pointer;}
